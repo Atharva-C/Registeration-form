@@ -1,5 +1,5 @@
 const form = document.getElementById("registration-form");
-form.addEventListener("submit", function(event) {
+form.addEventListener("submit", function(event) {       // to listen (handle) the event 
   event.preventDefault();
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
